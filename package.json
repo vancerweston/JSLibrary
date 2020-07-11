@@ -1,0 +1,29 @@
+{
+  "name": "jslibrary",
+  "version": "1.0.0",
+  "description": "My First Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "start": "npm run webpack",
+    "webpack": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vancerweston/JSLibrary.git"
+  },
+  "author": "Vance",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vancerweston/JSLibrary/issues"
+  },
+  "homepage": "https://github.com/vancerweston/JSLibrary#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
